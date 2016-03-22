@@ -12,14 +12,14 @@ $ npm install
 $ make serve
 ```
 
+Open <http://localhost:8000/>
+
+
 ## Deploy to GitHub Pages
 
 ```bash
 $ make deploy
 ```
-
-Open <http://localhost:8000/>
-
 ## Documentation
 
 - [Facade.js](https://facadejs.com/) - <https://doxdox.org/syntaxtsb/plastick.js>
