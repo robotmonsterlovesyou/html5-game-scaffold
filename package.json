@@ -1,0 +1,9 @@
+{
+  "name": "@robotmonsterlovesyou/html5-game-scaffold",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "2.2.0"
+  },
+  "private": true
+}
