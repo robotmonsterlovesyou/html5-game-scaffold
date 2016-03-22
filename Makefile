@@ -1,3 +1,6 @@
+serve:
+	(cd static/ && python -m SimpleHTTPServer)
+
 deploy:
 	rm -rf dist/
 	cp -r static/ dist/

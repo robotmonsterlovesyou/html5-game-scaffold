@@ -9,7 +9,7 @@ $ npm install
 ## Development
 
 ```bash
-$ (cd static/ && python -m SimpleHTTPServer)
+$ make serve
 ```
 
 ## Deploy to GitHub Pages
