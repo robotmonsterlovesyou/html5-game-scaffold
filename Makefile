@@ -18,3 +18,4 @@ deploy:
 
 	git add dist && git commit -m "Deployed game to gh-pages."
 	git subtree push --prefix dist origin gh-pages
+	git reset --hard HEAD~1
