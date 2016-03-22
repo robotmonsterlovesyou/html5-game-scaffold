@@ -1,6 +1,14 @@
-requirejs:
-	rm static/js/build.min.js || exit 0;
-	./node_modules/.bin/r.js -o static/build.config.js
-	mv static/js-build/config.js static/js/build.min.js
-	rm -rf static/js-build/
+deploy:
+	rm -rf dist/
+	cp -r static/ dist/
 
+	./node_modules/.bin/r.js -o dist/build.config.js
+
+	mv dist/js-build/config.js dist/js/build.min.js
+
+	rm -rf dist/bower_components/
+	rm -rf dist/js-build/
+	rm -rf dist/js/
+
+	rm dist/index.html
+	mv dist/index-dist.html dist/index.html
