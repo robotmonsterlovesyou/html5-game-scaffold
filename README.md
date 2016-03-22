@@ -3,13 +3,19 @@
 ## Setup
 
 ```
-$ bower install
+$ npm install
 ```
 
-## Run
+## Development
 
 ```bash
-$ python -m SimpleHTTPServer
+$ (cd static/ && python -m SimpleHTTPServer)
+```
+
+## Deploy to GitHub Pages
+
+```bash
+$ make deploy
 ```
 
 Open <http://localhost:8000/>
